@@ -126,7 +126,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/pageLoad */ \"./src/modules/pageLoad.js\");\n\n\n\n(0,_modules_pageLoad__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconsole.log('Hi');\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/pageLoad */ \"./src/modules/pageLoad.js\");\n/* harmony import */ var _modules_footerLoad__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/footerLoad */ \"./src/modules/footerLoad.js\");\n\n\n\n\n(0,_modules_pageLoad__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n(0,_modules_footerLoad__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\nconsole.log('Hi');\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/footerLoad.js":
+/*!***********************************!*\
+  !*** ./src/modules/footerLoad.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style.css */ \"./src/style.css\");\n\n\nconst loadFooter = () => {\n    const footer = document.createElement('footer');\n    const div = document.createElement('div');\n    const p1 = document.createElement('p');\n    const p2 = document.createElement('p');\n\n    p1.textContent = 'Copyright © 2022 imranprice96';\n    p2.textContent = 'Images sourced from Pixabay'\n\n    div.classList.add('footer-div');\n\n    div.appendChild(p1);\n    div.appendChild(p2);\n    footer.appendChild(div);\n\n    document.body.appendChild(footer);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadFooter);\n\n\n//# sourceURL=webpack://restaurant-page/./src/modules/footerLoad.js?");
 
 /***/ }),
 
