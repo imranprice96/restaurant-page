@@ -1,0 +1,59 @@
+
+body {
+    background: url(../images/background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    width: min(70vw, 1200px);
+    align-items: center;
+    border: 10px solid palevioletred;
+    gap: 50px;
+}
+
+#content p{
+    margin: 0;
+}
+
+footer{
+    background-color: palevioletred;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.2rem;
+}
+
+#home-title{
+    font-size: 2rem;
+}
+
+#home-info{
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+header{
+    background-color: palevioletred;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 100%;
+}
