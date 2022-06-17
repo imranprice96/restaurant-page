@@ -49,16 +49,18 @@ header{
     width: 100%;
 }
 
-
+/*----------------------------------*/
+/* FOOTER */
 footer{
     background-color: palevioletred;
     margin-top: auto;
     width: 100%;
 }
 
-.footer{
+.footer-div{
     display: flex;
     justify-content: center;
     gap: 50px;
     font-size: 1.2rem;
 }
+/*----------------------------------*/
