@@ -1,7 +1,7 @@
 import '../style.css';
 
 const loadFooter = () => {
-    const footer = document.createElement('footer');
+    //const footer = document.createElement('footer');
     const div = document.createElement('div');
     const p1 = document.createElement('p');
     const p2 = document.createElement('p');
@@ -13,9 +13,9 @@ const loadFooter = () => {
 
     div.appendChild(p1);
     div.appendChild(p2);
-    footer.appendChild(div);
+    //footer.appendChild(div);
 
-    document.body.appendChild(footer);
+    document.body.appendChild(div);
 };
 
 export default loadFooter;

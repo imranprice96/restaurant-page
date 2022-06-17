@@ -10,13 +10,13 @@ body {
 
 #content {
     display: flex;
-    flex-direction: column;
     background-color: white;
     padding: 50px;
     width: min(70vw, 1200px);
     align-items: center;
     border: 10px solid palevioletred;
     gap: 50px;
+    margin: 50px 0 50px 0;
 }
 
 .content-title{
@@ -24,43 +24,51 @@ body {
 }
 
 .content-info{
+    display: flex;
+    flex-direction: column;
     font-size: 1.2rem;
+    gap: 50px;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.content-info h1, p{
+    margin: 0;
 }
 
 .content-img{
-    height: 50%;
-    width: 50%;
-    object-fit: contain;
+    max-width: 300px;
 }
 
 
+
 /*----------------------------------*/
-nav{
+.nav{
     display: flex;
     gap: 50px;
     font-size: 1.2rem;
     justify-content: center;
 }
 
-header{
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: palevioletred;
-    margin-bottom: 50px;
     padding: 20px;
     width: 100%;
 }
 
 /*----------------------------------*/
 /* FOOTER */
-footer{
+.footer-div{
     background-color: palevioletred;
     margin-top: auto;
     width: 100%;
-}
-
-.footer-div{
     display: flex;
     justify-content: center;
     gap: 50px;
     font-size: 1.2rem;
+    padding: 25px;
 }
 /*----------------------------------*/
