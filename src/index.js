@@ -1,2 +1,7 @@
+import pageLoad from './modules/pageLoad';
 
-console.log('Test');
+
+pageLoad();
+
+console.log('Hi');
+

@@ -19,31 +19,22 @@ body {
     gap: 50px;
 }
 
-#content p{
-    margin: 0;
-}
-
-footer{
-    background-color: palevioletred;
-    margin-top: auto;
-    width: 100%;
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    font-size: 1.2rem;
-}
-
-#home-title{
+.content-title{
     font-size: 2rem;
 }
 
-#home-info{
+.content-info{
     font-size: 1.2rem;
 }
 
+.content-img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+
+/*----------------------------------*/
 nav{
     display: flex;
     gap: 50px;
@@ -56,4 +47,18 @@ header{
     margin-bottom: 50px;
     padding: 20px;
     width: 100%;
+}
+
+
+footer{
+    background-color: palevioletred;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.2rem;
 }
