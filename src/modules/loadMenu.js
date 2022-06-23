@@ -61,7 +61,6 @@ const loadMenu = () =>{
     content.innerHTML = '';
     content.appendChild(img);
     content.appendChild(div4);
-    console.log(content);
     
 };
 

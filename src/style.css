@@ -22,10 +22,12 @@ body {
     padding: 50px;
     width: min(70vw, 1200px);
     align-items: center;
-    border: 10px solid var(--rose);
+    border: 10px solid var(--dark);
     border-radius: 10px;
     gap: 50px;
     margin: 50px 0 50px 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-title{
@@ -50,6 +52,33 @@ body {
 
 .content-img{
     max-width: 300px;
+}
+
+.header-img{
+    max-height: 150px;
+}
+
+.contact-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-info{
+    background-color: var(--dark);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info p:first-child{
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+.contact-info p{
+    padding: 10px;
 }
 
 .list{
@@ -103,5 +132,6 @@ body {
     gap: 50px;
     font-size: 1.2rem;
     padding: 25px;
+    font-weight: bold;
 }
 /*----------------------------------*/

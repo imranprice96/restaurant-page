@@ -6,5 +6,3 @@ loadHeader();
 pageLoad();
 loadFooter();
 
-console.log('Hi');
-

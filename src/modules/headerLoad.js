@@ -1,6 +1,7 @@
 import '../style.css';
 import loadMenu from './loadMenu';
 import pageLoad from './pageLoad';
+import loadContact from './loadContact';
 
 const loadHeader = () => {
     const header = document.createElement('header');
@@ -23,6 +24,10 @@ const loadHeader = () => {
 
     d2.addEventListener('click', (e) => {
         loadMenu();
+    });
+
+    d3.addEventListener('click', (e) => {
+        loadContact();
     });
 
     nav.classList.add('nav');
