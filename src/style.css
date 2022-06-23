@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --rose: #fb7185;
+    --dark: #be123c;
+}
+
+
 
 body {
     background: url(../images/background.png);
@@ -6,6 +13,7 @@ body {
     align-items: center;
     margin: 0;
     height: 100vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
@@ -14,13 +22,17 @@ body {
     padding: 50px;
     width: min(70vw, 1200px);
     align-items: center;
-    border: 10px solid palevioletred;
+    border: 10px solid var(--rose);
+    border-radius: 10px;
     gap: 50px;
     margin: 50px 0 50px 0;
 }
 
 .content-title{
     font-size: 2rem;
+    border-bottom:5px solid var(--dark);
+    color: var(--dark);
+    padding: 10px;
 }
 
 .content-info{
@@ -32,12 +44,20 @@ body {
     height: 100%;
 }
 
-.content-info h1, p{
+.content-info h1, h3, p{
     margin: 0;
 }
 
 .content-img{
     max-width: 300px;
+}
+
+.list{
+    text-transform: capitalize; 
+}
+
+.list:before{
+    content:"• ";
 }
 
 
@@ -48,13 +68,26 @@ body {
     gap: 50px;
     font-size: 1.2rem;
     justify-content: center;
+    font-weight: bolder;
 }
+
+.nav div{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav div:hover{
+    background-color: var(--dark);
+    color: white;
+}
+
 
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: palevioletred;
+    background-color: var(--rose);
     padding: 20px;
     width: 100%;
 }
@@ -62,7 +95,7 @@ body {
 /*----------------------------------*/
 /* FOOTER */
 .footer-div{
-    background-color: palevioletred;
+    background-color: var(--rose);
     margin-top: auto;
     width: 100%;
     display: flex;

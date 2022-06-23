@@ -3,6 +3,7 @@ import '../style.css';
 
 const pageLoad = () => {
     const content = document.getElementById('content');
+    content.innerHTML = '';
     const title = document.createElement('h1'); 
     const info = document.createElement('p');
     const info2 = document.createElement('p');

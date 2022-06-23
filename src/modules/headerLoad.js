@@ -1,4 +1,6 @@
 import '../style.css';
+import loadMenu from './loadMenu';
+import pageLoad from './pageLoad';
 
 const loadHeader = () => {
     const header = document.createElement('header');
@@ -14,6 +16,14 @@ const loadHeader = () => {
     nav.appendChild(d1);
     nav.appendChild(d2);
     nav.appendChild(d3);
+
+    d1.addEventListener('click', (e) => {
+        pageLoad();
+    });
+
+    d2.addEventListener('click', (e) => {
+        loadMenu();
+    });
 
     nav.classList.add('nav');
 

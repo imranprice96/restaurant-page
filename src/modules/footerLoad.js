@@ -7,7 +7,7 @@ const loadFooter = () => {
     const p2 = document.createElement('p');
 
     p1.textContent = 'Copyright © 2022 imranprice96';
-    p2.textContent = 'Images sourced from Pixabay'
+    p2.textContent = 'Images from Pixabay'
 
     div.classList.add('footer-div');
 
